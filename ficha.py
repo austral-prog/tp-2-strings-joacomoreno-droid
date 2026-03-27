@@ -4,7 +4,6 @@ def ficha():
     reverse, replace, count, in, f-strings, strings multilínea y operaciones matemáticas.
     """
     # Ejercicio integrador: Generador de Ficha de Alumno
-    #
     # Leer mediante input:
     #   1. Nombre completo (puede tener espacios extra y mayúsculas mezcladas)
     #   2. Email (puede tener mayúsculas)
@@ -28,7 +27,7 @@ def ficha():
 
     multilinea = """========================
     FICHA DEL ALUMNO
-    ========================"""
+========================"""
 
     print(multilinea)
     print(f"Nombre: {nombre.title()}")
