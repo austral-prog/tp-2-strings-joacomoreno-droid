@@ -28,7 +28,7 @@ def ficha():
 
     multilinea = """========================
     FICHA DEL ALUMNO
-========================"""
+    ========================"""
 
     print(multilinea)
     print(f"Nombre: {nombre.title()}")
