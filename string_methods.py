@@ -1,5 +1,5 @@
 def string_methods():
-    """Demuestra el uso de métodos de string: strip, lstrip, rstrip, upper, lower,
+        """Demuestra el uso de métodos de string: strip, lstrip, rstrip, upper, lower,
     title, find, replace, count, operador in, slicing con paso, reverso,
     f-strings y strings multilínea.
     """
