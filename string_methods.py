@@ -25,4 +25,4 @@ def string_methods():
     print(f"Paso: {frase[0:6:2]}")
     print(f"Reverso: {frase[0:6][::-1]}")
     print(f"Formato: {nombre.strip()} sabe {frase[0:6]}")
-    print(multilinea)
+    print(f"{multilinea[:7]}\n{multilinea[8:20].lstrip()}{multilinea[24:]}")
