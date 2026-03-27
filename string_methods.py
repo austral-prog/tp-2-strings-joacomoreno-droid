@@ -8,9 +8,9 @@ def string_methods():
     frase = "Python es un gran lenguaje de programacion"
     
 
-multilinea = """Linea 1
-Linea 2
-Linea 3"""
+    multilinea = """Linea 1
+    Linea 2
+    Linea 3"""
 
     print("Strip:", nombre.strip())
     print("Lstrip:", nombre.lstrip())
