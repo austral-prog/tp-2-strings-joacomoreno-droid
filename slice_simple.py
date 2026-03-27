@@ -3,3 +3,9 @@ def slice_simple():
     usando slicing y lower().
     """
     texto = "Awesome"
+
+    texto = "Awesome"
+
+    print(texto[:3].lower())
+    print(texto[2:5])
+    print(texto.lower())
