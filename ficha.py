@@ -26,10 +26,15 @@ def ficha():
     #   - Cierre decorativo usando repetición de string ("=" * 24)
     pass
 
+    nombre = input().strip()
+    email = input().strip()
+    nota1 = int(input())
+    nota2 = int(input())
+    nota3 = int(input())
     multilinea = """========================
     FICHA DEL ALUMNO
 ========================"""
-
+    
     print(multilinea)
     print(f"Nombre: {nombre.title()}")
     print(f"Email: {email.lower()}")
